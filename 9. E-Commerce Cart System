@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Main9 {
+    public static void main(String[] args) {
+        double[] prices = {100, 200, 300};
+        double total = 0;
+
+        for (double p : prices) total += p;
+
+        if (total > 500) total *= 0.9;
+
+        System.out.println("Final: " + total);
+    }
+}
