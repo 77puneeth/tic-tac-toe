@@ -1,0 +1,10 @@
+import java.util.*;
+class Main1 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        ArrayList<String> list=new ArrayList<>();
+        list.add("1-Puneeth-90");
+        list.add("2-Ram-80");
+        for(String s:list) System.out.println(s);
+    }
+}
