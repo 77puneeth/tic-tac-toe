@@ -1,0 +1,9 @@
+class Main4{
+    public static void main(String[] a){
+        String ans="A";
+        String user="A";
+        int score=0;
+        if(ans.equals(user)) score++;
+        System.out.println(score);
+    }
+}
