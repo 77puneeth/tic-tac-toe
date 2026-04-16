@@ -1,0 +1,12 @@
+public class Main7 {
+    public static void main(String[] args) {
+        boolean roomBooked = false;
+
+        if (!roomBooked) {
+            roomBooked = true;
+            System.out.println("Room booked");
+        } else {
+            System.out.println("Already booked");
+        }
+    }
+}
