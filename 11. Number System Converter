@@ -1,0 +1,9 @@
+public class Main11 {
+    public static void main(String[] args) {
+        int n = 10;
+
+        System.out.println("Binary: " + Integer.toBinaryString(n));
+        System.out.println("Octal: " + Integer.toOctalString(n));
+        System.out.println("Hex: " + Integer.toHexString(n));
+    }
+}
