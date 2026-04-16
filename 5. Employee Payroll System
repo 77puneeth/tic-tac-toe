@@ -1,0 +1,14 @@
+public class Main5 {
+    public static void main(String[] args) {
+        double basic = 40000;
+
+        double hra = basic * 0.2;
+        double da = basic * 0.1;
+        double gross = basic + hra + da;
+
+        double tax = (gross > 30000) ? gross * 0.1 : 0;
+        double net = gross - tax;
+
+        System.out.println("Net Salary: " + net);
+    }
+}
