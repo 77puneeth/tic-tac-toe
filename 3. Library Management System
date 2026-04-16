@@ -1,0 +1,13 @@
+public class Main3 {
+    public static void main(String[] args) {
+        int id = 1;
+        boolean issued = false;
+
+        if (!issued) {
+            issued = true;
+            System.out.println("Book issued");
+        }
+
+        System.out.println("Status: " + issued);
+    }
+}
