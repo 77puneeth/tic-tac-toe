@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Main10 {
+    public static void main(String[] args) {
+        int seats = 3;
+
+        if (seats > 0) {
+            seats--;
+            System.out.println("Ticket booked");
+        } else {
+            System.out.println("No seats");
+        }
+
+        System.out.println("Remaining: " + seats);
+    }
+}
